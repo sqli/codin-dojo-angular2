@@ -1,0 +1,7 @@
+<div class="collection">
+    <a *ngFor="#user of users" [routerLink]="['User', {id: user.id}]" class="collection-item">
+        <img src="{{user.picture}}" title="{{user.firstName}} {{user.lastName}}"/>
+        {{user.firstName}} {{user.lastName}}
+        <span class="badge">{{user.id}}</span>
+    </a>
+</div>

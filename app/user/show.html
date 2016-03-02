@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col s12 m7">
+        <div class="card" *ngIf="user">
+            <div class="card-image">
+                <img src="{{user.picture}}" title="{{user.firstName}} {{user.lastName}}"/>
+                <span class="card-title">{{user.firstName}} {{user.lastName}}</span>
+            </div>
+            <div class="card-content">
+                <p [ngClass]="{'male': user.isMale, 'female': !user.isMale}">Is a male? -> {{user.isMale}}</p>
+            </div>
+            <div class="card-action">
+                <a [routerLink]="['Users']">Back</a>
+            </div>
+        </div>
+    </div>
+</div>

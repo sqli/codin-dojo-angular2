@@ -1,5 +1,5 @@
 {
-  "name": "codin-dojo-angular2",
+  "name": "coding-dojo-angular2",
   "version": "1.0.0",
   "scripts": {
     "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
@@ -13,6 +13,7 @@
   "dependencies": {
     "angular2": "2.0.0-beta.7",
     "router": "2.0.0-beta.7",
+    "materialize-css": "0.97.5",
     "systemjs": "0.19.22",
     "es6-promise": "^3.0.2",
     "es6-shim": "^0.33.3",

@@ -3,7 +3,10 @@
         <script>document.write('<base href="' + document.location + '" />');</script>
         <title>Coding Dojo : Angular 2</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="app/styles.css">
+
+        <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons"/>
+        <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="app/main.css" media="screen,projection"/>
 
         <!-- 1. Load libraries -->
         <!-- IE required polyfills, in this exact order -->
@@ -34,7 +37,21 @@
 
     <!-- 3. Display the application -->
     <body>
-        <my-app>Loading...</my-app>
+        <sqli-app>
+            <div class="preloader-wrapper big active">
+                <div class="spinner-layer spinner-blue">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </sqli-app>
     </body>
 
 </html>

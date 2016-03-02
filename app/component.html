@@ -1,0 +1,41 @@
+<nav>
+    <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Angular 2</a>
+        <ul class="right hide-on-med-and-down">
+            <li>
+                <a [routerLink]="['Users']">
+                    <i class="material-icons right">list</i>Users
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <router-outlet></router-outlet>
+</main>
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Coding Dojo</h5>
+                <p class="grey-text text-lighten-4">Animated by Robin Coma Delperier.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/sqli">Github SQLI</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/sqli/coding-dojo-angular2">Github Project</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/robinComa">Github Robin Coma Delperier</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            &copy; 2016 SQLI
+            <a class="grey-text text-lighten-4 right" href="http://www.sqli.com/">SQLI</a>
+        </div>
+    </div>
+</footer>
